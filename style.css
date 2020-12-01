@@ -1,0 +1,55 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 80% 5%;
+}
+header{
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+}
+main{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    grid-row: 3/4;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+label{
+    margin-top: 10px;
+}
+input{
+    width: 120px;
+    height: 30px;
+    background-color: lightgray;
+    text-align: center;
+}
+#valider{
+    height: 50px;
+    width: 150px;
+    border-radius: 30%;
+    margin-top: 30px;
+}
+form{
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    width: 50px;
+}
+
+

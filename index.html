@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lancé de dés en PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="dice.png" alt="image de dés">
+    </header>
+    <main>
+        <h1>Lancé de dés</h1>
+        <form action="resultat.php" method="POST">
+        <label for="nbDe">Choisi le nombre de dés à lancer (nombre entier):</label></br>
+        <input id="nbDe" type="text" name="nbDe" pattern="^[0-9]+$" maxlength="100" required></br>
+        <label for="nbFace">Choisi le nombre de faces pour les dés (nombre entier):</label></br>
+        <input id="nbFace" type="text" name="nbFace" pattern="^[0-9]+$" maxlength="100" required></br>
+        <input id="valider" type="submit" value="Lancer!">
+        </form> 
+    </main>
+    <footer>
+        Bonne chance!
+    </footer>
+</body>
+</html>
